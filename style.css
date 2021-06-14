@@ -36,22 +36,24 @@ a {
 }
 
 .link-share {
-    position: relative;
-    top: 100px;
-    left: -270px;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
 }
 
 .span-positioned {
-    position: relative;
+    position:absolute;
+    top: 40px;
+    right: 50px;
+
+    
     
     display: block;
     color: red;
     border: 1px solid red;
     border-radius: 50%;
     text-align: center;
-    top: 60px;
-    right: 60px;
-    float: right;
+  
     
     width: 60px;
     height: 60px;
